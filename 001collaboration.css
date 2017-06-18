@@ -1,16 +1,23 @@
 
 * {box-sizing:border-box}
 
+body {
+  background: rgba(34, 44, 44, 0.9);
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1200px;
-  position: relative;
+  position: auto;
   margin: auto;
+  min-height:100%;
 }
 
 .mySlides {
     display: none;
 }
+
+
 
 /* Next & previous buttons */
 .prev, .next {
@@ -20,7 +27,7 @@
   width: auto;
   margin-top: -22px;
   padding: 10px;
-  color: yellow;
+  color: #ffffff;
   font-weight: bold;
   font-size: 35px;
   transition: 0.6s ease;
@@ -31,7 +38,7 @@
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
-  color: blue;
+  color: #ffffff;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -65,14 +72,14 @@
   height: 13px;
   width: 13px;
   margin: 0 2px;
-  background-color: yellow;
+  background-color: #ffffff;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: blue;
+  background-color: #d3d3d3;
 }
 
 /* Fading animation */
@@ -100,25 +107,25 @@
     background-color:grey;
     font-size:20px;
     color:red;
-    a{color:red;}
+    a{color:rgba(34, 44, 44, 0.9)}
     }
 @media only screen and (min-width: 500px) {
     body { 
-    background-color:blue;
+    background-color:rgba(34, 44, 44, 0.9);
     font-size:25px;
     color:grey;
     }
     a{color:grey;}
 @media only screen and (min-width: 1000px) {
     body { 
-    background-color:red;
+    background-color:rgba(34, 44, 44, 0.9);
     font-size:30px;
     color:blue;
     }
-    a{color:blue;}
+    a{color:#d3d3d3;}
 
 @media only screen and (min-width: 1500px) {
     body { 
-    background-color:yellow;
+    background-color:rgba(34, 44, 44, 0.9);
     }
 
