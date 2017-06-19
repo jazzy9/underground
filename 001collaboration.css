@@ -93,12 +93,16 @@ body {
 }
 
 
-/* Flip card start
+
 .container { 
   width: 200px;
   height: 260px;
   position: relative;
   perspective: 800px;
+}
+#card:hover {
+  transform: rotateX(180deg);
+  background: blue;
 }
 #card {
   width: 100%;
@@ -120,12 +124,12 @@ body {
 }
 #card .back {
   background: blue;
-  transform: rotateY( 180deg );
+  transform: rotateX( 180deg );
 }
 #card.flipped {
-  transform: rotateY( 180deg );
+  transform: rotateX( 180deg );
 }
-Flip card end */
+
 
 @-webkit-keyframes fade {
   from {opacity: .4} 
