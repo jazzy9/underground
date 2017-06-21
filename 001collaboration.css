@@ -94,15 +94,19 @@ body {
 
 
 /* Thumbnail 3d flip */
-.container { 
-  width: 200px;
-  height: 260px;
+.row {
+  margin:30px;
+}
+.thumbnail { 
+  width: 500px;
+  height: 340px;
   position: relative;
   perspective: 800px;
+  border-style: none;
+  border-radius: 0px;
 }
 #card:hover {
   transform: rotateX(180deg);
-  background: blue;
 }
 #card {
   width: 100%;
@@ -119,15 +123,14 @@ body {
   height: 100%;
   backface-visibility: hidden;
 }
-#card .front {
-  background: red;
-}
 #card .back {
-  background: blue;
   transform: rotateX( 180deg );
 }
 #card.flipped {
   transform: rotateX( 180deg );
+}
+img {
+    width: 500px;
 }
 
 
