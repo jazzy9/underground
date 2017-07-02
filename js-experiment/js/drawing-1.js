@@ -1,3 +1,5 @@
+//Merci beaucoup Nora! http://pca.louiseveillard.com/experiments.php
+
 $(document).ready(function(){
     moveCrossTo(window.innerWidth/2, window.innerHeight/2);
     $(document).on('click', function() {
