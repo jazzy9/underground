@@ -6,6 +6,15 @@ body {
   margin: 5px;
   padding: 5px;
 }
+.navbar-main{
+  position: fixed;
+  height: 88px;
+  background:white;
+  top:0;
+  left:0;
+  width:100%;
+  z-index: 99999;
+}
 a {
 text-decoration: none;
 color:white;
@@ -18,10 +27,23 @@ a:visited {
 p {
   text-align: center;
 }
+.left {
+  float:left;
+  clear:left;
+}
+.right {
+  float:right;
+  clear:right;
+  text-align: right;
+  margin-right: 60px;
+}
 li {
-        display: inline;
-        padding: 0px 10px 0px 10px;
-    }
+    list-style: none;
+    display: inline; 
+}
+li a {
+padding:20px;
+}
 
 
 /* Thumbnail 3d flip */
@@ -97,6 +119,15 @@ img{
 .pub-post-bg{
   background:black;
   color:white;
+}
+.navbar-post{
+  position: fixed;
+  height: 88px;
+  background:black;
+  top:0;
+  left:0;
+  width:100%;
+  z-index: 99999;
 }
 .quote{
   font-size:40px;
