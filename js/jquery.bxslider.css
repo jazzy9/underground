@@ -166,6 +166,7 @@ ul.bxslider {
   left: 0;
   background: #666;
   background: rgba(80, 80, 80, 0.75);
+  background-size: cover;
   width: 100%;
 }
 .bx-wrapper .bx-caption span {
