@@ -3,7 +3,7 @@
 /** RESET AND LAYOUT
 ===================================*/
 
-/**my own css*/
+/**my own css code*/
 #slider-wrapper ul {
   margin: 0px;
 }
@@ -26,7 +26,7 @@
   background-size: cover;
 }
 
-/**end of my own code*/
+/**end of my own  css code*/
 
 .bx-wrapper {
   position: relative;
@@ -59,8 +59,8 @@ ul.bxslider {
   -moz-box-shadow: 0 0 5px #ccc;
   -webkit-box-shadow: 0 0 5px #ccc;
   box-shadow: 0 0 5px #ccc;
-  border: 5px solid #fff;
-  background: #fff;
+  border: 5px solid #141414;
+  background: #141414;
 }
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
