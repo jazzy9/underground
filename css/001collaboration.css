@@ -85,6 +85,7 @@ img{
   border-radius: 0px;
   float:left;
   margin:50px;
+  padding-bottom: 6.81818181818182%;
 }
 #card:hover {
     -webkit-transform: rotateX(180deg);
@@ -234,12 +235,12 @@ text-indent:-99999px
 
 
 
-/*contact */
+/*Drinks consumed */
 .Drinks{
     margin-top: -7px;
     position: relative;
     left: 0px;
-    width: 100%;
+    width: 50%;
     height: 540px;
     padding-top: 10px;
     transition: all 1000ms;
