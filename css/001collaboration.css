@@ -78,7 +78,6 @@ img{
   border-radius: 0px;
   float:left;
   margin:50px;
-  margin-bottom:200px;
 }
 #card:hover {
     -webkit-transform: rotateX(180deg);
