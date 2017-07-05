@@ -45,6 +45,13 @@ li {
 li a {
 padding:20px;
 }
+footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
 
 
 /* Thumbnail 3d flip */
