@@ -1,15 +1,11 @@
 .index-bg{
-  background:white;
+  background:black;
 }
 body {
   font-family: 'Spectral', serif;
   margin: 5px;
   padding: 5px;
-  background-image:url("underground.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
+
 }
 .navbar-main{
   position: fixed;
