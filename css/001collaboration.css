@@ -3,7 +3,6 @@
 }
 body {
   font-family: 'Spectral', serif;
-  margin: 5px;
 }
 .navbar-main{
   position: fixed;
@@ -34,14 +33,14 @@ p {
   float:right;
   clear:right;
   text-align: right;
-  margin-right: 60px;
+  margin-right: 50px;
 }
 li {
     list-style: none;
     display: inline; 
 }
 li a {
-padding:20px;
+padding:10px;
 }
 footer {
     position: fixed;
@@ -272,6 +271,28 @@ text-indent:-99999px
     background-color: #DFF8FF;
 }
 }
+
+/*SWITCH TO MOBILE VERSION*/
+@media only screen and (max-width: 700px){
+a {
+font-size: 15px;
+}
+.thumbnail { 
+  width: 100%;
+  margin: 10px;
+}
+.navbar-main{
+  position: fixed;
+  height: 110px;
+  background:black;
+  top:0;
+  left:0;
+  width:100%;
+  z-index: 99999;
+}
+}
+
+
 
 @media only screen and (min-width: 600px) {
 /*second glas */
