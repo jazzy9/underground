@@ -4,8 +4,6 @@
 body {
   font-family: 'Spectral', serif;
   margin: 5px;
-  padding: 5px;
-
 }
 .navbar-main{
   position: fixed;
@@ -59,66 +57,53 @@ footer {
 display: inline-block;
 vertical-align: middle;
 position: relative;
-padding:0;
-margin:0;
+padding: 0;
+margin: 0;
 width:100vw;
 }
 .thumbnail-wrap {
   width: 100vw;
   height: auto;
   display:block;
-  overflow-y:auto;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
 }
 img{
-  width:100%;
+  width: 100%;
   display: block;
 }
 .thumbnail { 
   width: calc(50% - 100px);
-  height: 300px;
   position: relative;
-  -webkit-perspective: 800px;
-  -moz-perspective: 800px;
-  -o-perspective: 800px;
+  float: left;
+  margin: 50px;
+  margin-bottom: 60px;
   perspective: 800px;
   border-style: none;
   border-radius: 0px;
-  float:left;
-  margin:50px;
-  padding-bottom: 6.81818181818182%;
 }
 #card:hover {
-    -webkit-transform: rotateX(180deg);
-    -moz-transform: rotateX(180deg);
-    -o-transform: rotateX(180deg);
     transform: rotateX(180deg);
 }
 #card {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  -webkit-transition: -webkit-transform 1s;
-  -moz-transition: -moz-transform 1s;
-  -o-transition: -o-transform 1s;
+  position: relative;
   transition: transform 1s;
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  -o-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
 #card figure {
   margin: 0;
   display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
   backface-visibility: hidden;
 }
 #card .back {
-  transform: rotateX( 180deg );
+    transform: rotateX(180deg);
+    position: absolute;
+    top: 0; 
+    left: 0;
 }
 #card.flipped {
-  transform: rotateX( 180deg );
+    transform: rotateX(180deg);
 }
 
 
@@ -126,6 +111,7 @@ img{
 .pub-post-bg{
   background:black;
   color:white;
+  text-align:center;
 }
 .navbar-post{
   position: fixed;
@@ -138,7 +124,9 @@ img{
 }
 .quote{
   font-size:40px;
-  text-align: center;
+}
+.bigger{
+  font-size:40px;
 }
 .subtitle{
   font-family: helvetica, sans-serif;
@@ -240,7 +228,7 @@ text-indent:-99999px
     margin-top: -7px;
     position: relative;
     left: 0px;
-    width: 50%;
+    width: 40%;
     height: 540px;
     padding-top: 10px;
     transition: all 1000ms;
@@ -248,8 +236,8 @@ text-indent:-99999px
 @media only screen and (min-width: 1000px){
 /*third glas */
 .ice-cube-3 {
-    width: 100px;
-    height: 100px;
+    width: 10%;
+    height: 10%;
     position: absolute;
     z-index:1;
     background-color: #c6e3ec;
@@ -268,16 +256,16 @@ text-indent:-99999px
             background-color: #c6e3ec;}
 }
 .Fill-3 {
-    width: 350px;
-    height: 300px;
+    width: 50%;
+    height: 50%;
     position: absolute;
     background-color: #FFF0B4;
     top:200px;
     left:800px;
 }
 .Glas-3 {
-    width: 350px;
-    height: 500px;
+    width: 50%;
+    height: 50%;
     position: absolute;
     left:800px;
     top:0;
