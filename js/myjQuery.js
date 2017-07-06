@@ -6,3 +6,5 @@
   		var fs = $('.bigger').css('fontSize');
   		$('.bigger').css('fontSize', (parseInt(fs, 10) + 1) + 'px');
 	});
+
+	
