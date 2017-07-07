@@ -123,6 +123,9 @@ img{
 }
 .quote{
   font-size:40px;
+  color:white;
+  text-align: center;
+
 }
 .bigger{
   font-size:40px;
@@ -132,6 +135,7 @@ img{
   font-size:30px;
   text-align: left;
   margin-bottom: 20px;
+  color:white;
 }
 .post {
   font-size:20px;
