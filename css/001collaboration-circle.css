@@ -93,6 +93,7 @@ width: 100vw;
 img{
   width: 100%;
   display: block;
+  border-radius: 50%;
 }
 .thumbnail { 
   width: calc(50% - 100px);
