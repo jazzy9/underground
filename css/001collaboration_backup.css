@@ -1,0 +1,412 @@
+/*Css fo ratings*/
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+.index-bg{
+  background:black;
+}
+body {
+  font-family: 'Spectral', serif;
+}
+.navbar-main{
+  position: fixed;
+  height: 80px;
+  background:black;
+  top:0;
+  left:0;
+  width:100%;
+  z-index: 99999;
+}
+a {
+text-decoration: none;
+color:white;
+font-family: 'Spectral',serif;
+font-size: 25px;
+}
+a:visited {
+  color:#EEE8AA;
+}
+p {
+  text-align: center;
+}
+.left {
+  float:left;
+  clear:left;
+}
+.right {
+  float:right;
+  clear:right;
+  text-align: right;
+  margin-right: 50px;
+}
+li {
+    list-style: none;
+    display: inline; 
+}
+li a {
+padding:10px;
+}
+footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Thumbnail 3d flip */
+.home-thumbnail-wrap {
+display: inline-block;
+vertical-align: middle;
+position: relative;
+padding: 0;
+margin: 0;
+width:100vw;
+}
+.thumbnail-wrap {
+  width: 100vw;
+  height: auto;
+  display:block;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+img{
+  width: 100%;
+  display: block;
+}
+.thumbnail { 
+  width: calc(50% - 100px);
+  position: relative;
+  float: left;
+  margin: 50px;
+  margin-bottom: 60px;
+  perspective: 800px;
+  border-style: none;
+  border-radius: 0px;
+}
+#card:hover {
+    transform: rotateX(180deg);
+}
+#card {
+  position: relative;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+#card figure {
+  margin: 0;
+  display: block;
+  backface-visibility: hidden;
+}
+#card .back {
+    transform: rotateX(180deg);
+    position: absolute;
+    top: 0; 
+    left: 0;
+}
+#card.flipped {
+    transform: rotateX(180deg);
+}
+
+
+/* pub post */
+.pub-post-bg{
+  background:black;
+  color:white;
+  text-align:center;
+}
+.navbar-post{
+  position: fixed;
+  height: 88px;
+  background:black;
+  top:0;
+  left:0;
+  width:100%;
+  z-index: 99999;
+}
+.quote{
+  font-size:40px;
+  color:white;
+  text-align: center;
+
+}
+.bigger{
+  font-size:40px;
+}
+.subtitle{
+  font-family: helvetica, sans-serif;
+  font-size:30px;
+  text-align: left;
+  margin-bottom: 20px;
+  color:white;
+}
+.post {
+  font-size:20px;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
+.caption {
+  font-family: helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.pub-post-section {
+position: relative;
+padding: 0px;
+width:100vw;
+}
+.pub-post-title{
+  width: 100%;
+  font-size:40px;
+  text-align:center;
+  padding:20px;
+
+}
+.drunk-img {
+  width:100%;
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.drunk-img:hover {
+    width:100%;
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+img {
+width:100%;
+display:block;
+
+}
+
+
+/*CSS for star ratings*/
+
+#ratingdiv{overflow:hidden}
+#ratingdiv .undone, #ratingdiv .fade{
+background:url("star.gif") -30px 0 no-repeat;
+width:28px;
+display:block;
+height:30px;
+float:left;
+margin-right:4px;
+text-indent:-99999px
+}
+#ratingdiv .done{
+background:url("star.gif") no-repeat;
+width:28px;
+display:block;
+height:30px;
+float:left;
+margin-right:4px;
+text-indent:-99999px
+}
+#ratingdiv .undone:hover{background-position:0}
+
+/*CSS for the carousel*/ 
+.bx-wrapper img {
+    margin: 0 auto;
+}
+
+
+.container{
+  min-height: 10em;
+  display: table-cell;
+  vertical-align:middle;
+}
+
+
+
+
+/*Drinks consumed */
+.Drinks{
+    margin-top: -7px;
+    position: relative;
+    left: 0px;
+    width: 40%;
+    height: 540px;
+    padding-top: 10px;
+    transition: all 1000ms;
+}
+@media only screen and (min-width: 1000px){
+/*third glas */
+.ice-cube-3 {
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    z-index:1;
+    background-color: #c6e3ec;
+    animation-name: ice-cube-three;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    left:880px;
+    top: 260px;
+}
+@keyframes ice-cube-three {
+    0%   {transform: rotate(0deg);
+            background-color: #c6e3ec;}
+    50%  {transform: rotate(180deg);
+            background-color: #fbecb3;}
+    100% {transform: rotate(0deg;)
+            background-color: #c6e3ec;}
+}
+.Fill-3 {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    background-color: #FFF0B4;
+    top:200px;
+    left:800px;
+}
+.Glas-3 {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left:800px;
+    top:0;
+    background-color: #DFF8FF;
+}
+}
+
+/*SWITCH TO MOBILE VERSION*/
+@media only screen and (max-width: 700px){
+a {
+font-size: 15px;
+}
+.thumbnail { 
+  width: 100%;
+  margin: 10px;
+}
+.navbar-main{
+  position: fixed;
+  height: 110px;
+  background:black;
+  top:0;
+  left:0;
+  width:100%;
+  z-index: 99999;
+}
+}
+
+
+
+@media only screen and (min-width: 600px) {
+/*second glas */
+.ice-cube-2 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index:1;
+    background-color: #b01919;
+    animation-name: ice-cube-two;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    left:480px;
+    top: 260px;
+}
+@keyframes ice-cube-two {
+    0%   {transform: rotate(0deg);
+            background-color: #b01919;}
+    50%  {transform: rotate(180deg);
+            background-color: #c6e3ec;}
+    100% {transform: rotate(0deg;)
+            background-color: #b01919;}
+}
+.Fill-2 {
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    background-color: #b01919;
+    top:200px;
+    left:400px;
+}
+.Glas-2 {
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    left:400px;
+    top:0;
+    background-color: #DFF8FF;
+}
+}
+
+@media only screen and (min-width: 300px){
+.ice-cube {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index:1;
+    background-color: #c6e3ec;
+    animation-name: ice-cube-one;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    left: 100px;
+    top: 250px;
+}
+@keyframes ice-cube-one {
+    0%   {transform: rotate(0deg);
+            background-color: #c6e3ec;}
+    50%  {transform: rotate(180deg);
+            background-color: #fbecb3;}
+    100% {transform: rotate(0deg;)
+            background-color: #c6e3ec;}
+}
+.Fill-1 {
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    background-color: #FFF0B4;
+    top:200px;
+}
+.Glas-1 {
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    left:0;
+    top:0;
+    background-color: #DFF8FF;
+}
+}
+
+/*CSS for the cocktail recipies*/
+.cocktail {
+   font-size:20px;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.4;
+  letter-spacing: 1px;
+   font-family: helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  text-align: center;
+  position: relative;
+  z-index: 8;
+}
+
+
+
