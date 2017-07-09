@@ -235,7 +235,7 @@ display:block;
   vertical-align: middle;
 }
 
-
+/*pssst
 .pssst{
     position: absolute;
     width: 90%;
@@ -243,7 +243,7 @@ display:block;
       z-index: 99999;
 
   }
-
+*/
 
 /*SWITCH TO MOBILE VERSION*/
 @media only screen and (max-width: 650px){
@@ -264,7 +264,7 @@ font-size: 15px;
 }
 }
 
-/*pssst*/
+/*pssst
 @media only screen and (max-width: 300px) {
 .pssst { 
     background-image: url("css/Images/pst3.png");
@@ -299,5 +299,5 @@ font-size: 15px;
     }
 }
 
-
+*/
 
