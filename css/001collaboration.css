@@ -36,12 +36,15 @@ body {
 /*links*/ 
 a {
 text-decoration: none;
-color:white;
+color: white;
 font-family: 'Spectral',serif;
 font-size: 25px;
 }
 a:visited {
-  color:#EEE8AA;
+  color: #EEE8AA;
+}
+a:hover {
+  color:white;
 }
 
 /*descriptions on bars*/ 
@@ -71,6 +74,21 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
+}
+.contact__social {
+}
+.contact__social__link--ig {
+  background-image: url(css/images/Instagram.png);
+}
+.contact__social__link--tw {
+  background-image: url(css/images/Twitter.png);
+}
+.contact__social__link{
+  width: 22px;
+  height: 22px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-right: 5px;
 }
 
 
@@ -229,58 +247,10 @@ display:block;
 
 
 
-/*Drinks consumed */
-.Drinks{
-    margin-top: -7px;
-    position: relative;
-    left: 0px;
-    width: 40%;
-    height: 540px;
-    padding-top: 10px;
-    transition: all 1000ms;
-}
-@media only screen and (min-width: 1000px){
-/*third glas */
-.ice-cube-3 {
-    width: 10%;
-    height: 10%;
-    position: absolute;
-    z-index:1;
-    background-color: #c6e3ec;
-    animation-name: ice-cube-three;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    left:880px;
-    top: 260px;
-}
-@keyframes ice-cube-three {
-    0%   {transform: rotate(0deg);
-            background-color: #c6e3ec;}
-    50%  {transform: rotate(180deg);
-            background-color: #fbecb3;}
-    100% {transform: rotate(0deg;)
-            background-color: #c6e3ec;}
-}
-.Fill-3 {
-    width: 50%;
-    height: 50%;
-    position: absolute;
-    background-color: #FFF0B4;
-    top:200px;
-    left:800px;
-}
-.Glas-3 {
-    width: 50%;
-    height: 50%;
-    position: absolute;
-    left:800px;
-    top:0;
-    background-color: #DFF8FF;
-}
-}
+
 
 /*SWITCH TO MOBILE VERSION*/
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 650px){
 a {
 font-size: 15px;
 }
@@ -296,86 +266,6 @@ font-size: 15px;
   left:0;
   width:100%;
   z-index: 99999;
-}
-}
-
-
-
-@media only screen and (min-width: 600px) {
-/*second glas */
-.ice-cube-2 {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    z-index:1;
-    background-color: #b01919;
-    animation-name: ice-cube-two;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    left:480px;
-    top: 260px;
-}
-@keyframes ice-cube-two {
-    0%   {transform: rotate(0deg);
-            background-color: #b01919;}
-    50%  {transform: rotate(180deg);
-            background-color: #c6e3ec;}
-    100% {transform: rotate(0deg;)
-            background-color: #b01919;}
-}
-.Fill-2 {
-    width: 350px;
-    height: 300px;
-    position: absolute;
-    background-color: #b01919;
-    top:200px;
-    left:400px;
-}
-.Glas-2 {
-    width: 350px;
-    height: 500px;
-    position: absolute;
-    left:400px;
-    top:0;
-    background-color: #DFF8FF;
-}
-}
-
-@media only screen and (min-width: 300px){
-.ice-cube {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    z-index:1;
-    background-color: #c6e3ec;
-    animation-name: ice-cube-one;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    left: 100px;
-    top: 250px;
-}
-@keyframes ice-cube-one {
-    0%   {transform: rotate(0deg);
-            background-color: #c6e3ec;}
-    50%  {transform: rotate(180deg);
-            background-color: #fbecb3;}
-    100% {transform: rotate(0deg;)
-            background-color: #c6e3ec;}
-}
-.Fill-1 {
-    width: 350px;
-    height: 300px;
-    position: absolute;
-    background-color: #FFF0B4;
-    top:200px;
-}
-.Glas-1 {
-    width: 350px;
-    height: 500px;
-    position: absolute;
-    left:0;
-    top:0;
-    background-color: #DFF8FF;
 }
 }
 
