@@ -253,9 +253,32 @@ text-indent:-99999px
     width: 100%;
     height: 535px;
     z-index: 99999;
-    background-color: #aff;
-
+    background-color: none;
   }
+
+  .p { 
+    background-image: url("css/images/p1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    }
+
+    .s { 
+    background-image: url("css/images/s1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    }
+
+    .t { 
+    background-image: url("css/images/t1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    }
 
 
 /*SWITCH TO MOBILE VERSION*/
@@ -277,9 +300,9 @@ font-size: 15px;
 }
 }
 
-/*pssst
+/*pssst*/
 @media only screen and (max-width: 300px) {
-.pssst { 
+.t { 
     background-image: url("css/Images/pst3.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -291,7 +314,7 @@ font-size: 15px;
     
 
 @media only screen and (max-width: 650px) {
-.pssst { 
+.s { 
     background-image: url("css/Images/pst2.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -303,7 +326,7 @@ font-size: 15px;
 
 
 @media only screen and (max-width: 1000px) {
-.pssst { 
+.p { 
     background-image: url("css/Images/pst1.png");
     background-repeat: no-repeat;
     background-position: center;
