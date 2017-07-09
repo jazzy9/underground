@@ -145,13 +145,14 @@ img{
   text-align: center;
 
 }
+
 .bigger{
   font-size:40px;
 }
 .subtitle{
   font-family: helvetica, sans-serif;
   font-size:30px;
-  text-align: left;
+  text-align: center;
   margin-bottom: 20px;
   color:white;
 }

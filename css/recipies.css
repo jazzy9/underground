@@ -1,0 +1,13 @@
+/* Styling the Stories section */
+.row img, .img-circle, .img-responsive {
+  height: 200px;
+  width: 200px;
+}
+
+.row .pull-right {
+  margin: 0 0 10px 20px;
+}
+
+.row .pull-left {
+  margin: 0 20px 10px 0;
+}
