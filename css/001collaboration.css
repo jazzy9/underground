@@ -1,9 +1,28 @@
+/*Css fo ratings*/
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
 .index-bg{
   background:black;
 }
 body {
   font-family: 'Spectral', serif;
 }
+
+/*navigation bar*/
+
 .navbar-main{
   position: fixed;
   height: 80px;
@@ -13,6 +32,8 @@ body {
   width:100%;
   z-index: 99999;
 }
+
+/*links*/ 
 a {
 text-decoration: none;
 color:white;
@@ -22,6 +43,8 @@ font-size: 25px;
 a:visited {
   color:#EEE8AA;
 }
+
+/*descriptions on bars*/ 
 p {
   text-align: center;
 }
@@ -189,28 +212,7 @@ display:block;
 }
 
 
-/*CSS for star ratings*/
 
-#ratingdiv{overflow:hidden}
-#ratingdiv .undone, #ratingdiv .fade{
-background:url("star.gif") -30px 0 no-repeat;
-width:28px;
-display:block;
-height:30px;
-float:left;
-margin-right:4px;
-text-indent:-99999px
-}
-#ratingdiv .done{
-background:url("star.gif") no-repeat;
-width:28px;
-display:block;
-height:30px;
-float:left;
-margin-right:4px;
-text-indent:-99999px
-}
-#ratingdiv .undone:hover{background-position:0}
 
 /*CSS for the carousel*/ 
 .bx-wrapper img {
