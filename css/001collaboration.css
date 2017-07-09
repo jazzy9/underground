@@ -56,8 +56,8 @@ p {
   clear:left;
 }
 .right {
-  float:right;
-  clear:right;
+  float: right;
+  clear: right;
   text-align: right;
   margin-right: 50px;
 }
@@ -75,21 +75,12 @@ footer {
     width: 100%;
     text-align: center;
 }
-.contact__social {
-}
-.contact__social__link--ig {
-  background-image: url(css/images/Instagram.png);
-}
-.contact__social__link--tw {
-  background-image: url(css/images/Twitter.png);
-}
-.contact__social__link{
+.social-button{
   width: 22px;
-  height: 22px;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  margin-right: 5px;
+  display: inline-block;
 }
+
+
 
 
 /* Thumbnail 3d flip */
@@ -241,13 +232,18 @@ display:block;
 .container{
   min-height: 10em;
   display: table-cell;
-  vertical-align:middle;
+  vertical-align: middle;
 }
 
+/*pssst
+.pssst{
+    position: absolute;
+    width: 90%;
+    height: 535px;
+      z-index: 99999;
 
-
-
-
+  }
+*/
 
 /*SWITCH TO MOBILE VERSION*/
 @media only screen and (max-width: 650px){
@@ -265,13 +261,43 @@ font-size: 15px;
   top:0;
   left:0;
   width:100%;
-  z-index: 99999;
 }
 }
 
+/*pssst
+@media only screen and (max-width: 300px) {
+.pssst { 
+    background-image: url("css/Images/pst3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    }
+}
+
+    
+
+@media only screen and (max-width: 650px) {
+.pssst { 
+    background-image: url("css/Images/pst2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    }
+}
 
 
 
+@media only screen and (max-width: 1000px) {
+.pssst { 
+    background-image: url("css/Images/pst1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    }
+}
 
-
+*/
 
