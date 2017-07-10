@@ -92,7 +92,7 @@ width: 100vw;
 }
 img{
   width: 100%;
-  display: block;
+  display: inline-block;
   border-radius: 50%;
 }
 .thumbnail { 
@@ -328,8 +328,21 @@ font-size: 15px;
 
 /*CSS for the cocktail recipies*/
 
-.img-circle {
+.img-circle img:hover {
+  display: inline-block;
   border-radius: 50%;
+    -webkit-transform: rotateY(-180deg); /* Safari , Chrome, Opera*/
+      -ms-transform: rotateY(-180deg); /*IE9*/ 
+      -o-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+
+}
+
+.img-circle img{
+  -webkit-transform: transform .2s linear;
+  -ms-transform: transform .2s linear;
+  -o-transform: transform .2s linear;
+  transform: transform .2s linear ; 
 }
 
 .cocktail {
@@ -364,3 +377,5 @@ font-size: 15px;
 .container2{
   border-radius: 50%
 }
+
+
