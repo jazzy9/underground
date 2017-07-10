@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
     font-family: 'distant_galaxyregular';
     src: url('font/DISTGRG_-webfont.eot');
     src: url('font/DISTGRG_-webfont.eot?#iefix') format('embedded-opentype'),
@@ -9,6 +9,7 @@
     font-style: normal;
 
 }
+*/
 
 
 
@@ -39,7 +40,7 @@ body {
 }
 
 .title {
-	font-family: "distant_galaxyregular";
+font-family: 'Spectral',serif;
 	color:white;
 	font-size: 50px;
 	text-align: center;
