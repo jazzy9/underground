@@ -359,28 +359,23 @@ font-size: 15px;
 }
 .cheers{
 visibility: hidden;
-top: 0px;
 } 
 .kanpai { 
     visibility: hidden;
-    top: 0px;
 }
 }
 
 @media only screen and (min-width: 650px){
 .cheers{
 visibility: hidden;
-top: 0px;
     position: absolute;
 } 
 .kanpai { 
     visibility: hidden;
-    top: 0px;
         position: absolute;
 }
 .prost { 
     visibility: visible;
-    top: 0px;
     position: absolute;
     z-index:1;
 }
@@ -390,7 +385,6 @@ top: 0px;
   .cheers{
     visibility: hidden;
       position: absolute;
-    top: 0px;
 } 
 .kanpai { 
     visibility: visible;
@@ -400,7 +394,6 @@ top: 0px;
 .prost { 
     visibility: hidden;
     position: absolute;
-    top: 0px;
 }
 }
 
@@ -408,19 +401,16 @@ top: 0px;
 @media only screen and (min-width: 1500px) {
 .cheers{
     visibility: visible;
-    top: 0px;
     position: absolute;
     z-index:1;
 } 
 .kanpai { 
     visibility: hidden;
-        position: absolute;
-    top: 0px;
+    position: absolute;
 }
 .prost { 
     visibility: hidden;
-        position: absolute;
-    top: 0px;
+    position: absolute;
 }
 }
 

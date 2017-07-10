@@ -61,7 +61,11 @@
             <br> 
             <br>
             <br>
-              shhh.... don't tell anyone
+            <a class="subtitle" href="#" id="trigger">shhh....</a>
+                   <!-- HIDDEN / POP-UP DIV -->
+                  <div id="pop-up">
+                     don't tell anyone
+                  </div>
            </p>
         </div>
 
@@ -110,6 +114,17 @@
                        </div>
                       </div>
                     </a> 
+
+  <script type="text/javascript">
+    $('div#pop-up').hide();
+      $(function() {
+      $('a#trigger').hover(function() {
+        $('div#pop-up').show();
+      }, function() {
+        $('div#pop-up').hide();
+      });
+    });
+  </script>
 
 </body>
 </html>
