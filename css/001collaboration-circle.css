@@ -246,86 +246,6 @@ text-indent:-99999px
 }
 
 
-
-/*pssst*/
-.pssst{
-    position: absolute;
-    width: 100%;
-    height: 535px;
-    z-index: 99999;
-    background-color: none;
-  }
-
-  .p { 
-    background-image: url("css/images/p1.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 100%;
-    }
-
-
-/*SWITCH TO MOBILE VERSION*/
-@media only screen and (max-width: 650px){
-a {
-font-size: 15px;
-}
-.thumbnail { 
-  width: 100%;
-  margin: 10px;
-}
-
-.thumbnail2 { 
-  width: 100%;
-  margin: 10px;
-}
-.navbar-main{
-  position: fixed;
-  height: 110px;
-  background:black;
-  top:0;
-  left:0;
-  width:100%;
-}
-}
-
-/*pssst*/
-@media only screen and (max-width: 300px) {
-.t { 
-    background-image: url("css/Images/pst3.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 100%;
-    }
-}
-
-    
-
-@media only screen and (max-width: 650px) {
-.s { 
-    background-image: url("css/Images/pst2.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 100%;
-    }
-}
-
-
-
-@media only screen and (max-width: 1000px) {
-.p { 
-    background-image: url("css/Images/pst1.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 100%;
-    }
-}
-
-*/
-
 /*CSS for the cocktail recipies*/
 
 .img-circle {
@@ -364,3 +284,90 @@ font-size: 15px;
 .container2{
   border-radius: 50%
 }
+
+
+
+/*pssst*/
+.pssst{
+    position: absolute;
+    width: 100%;
+    height: 535px;
+    z-index: 99999;
+    background-color: none;
+  }
+
+  .p { 
+    background-image: url("css/images/p1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    }
+
+
+
+
+
+/*SWITCH TO MOBILE VERSION*/
+@media only screen and (max-width: 650px){
+a {
+font-size: 15px;
+}
+.thumbnail { 
+  width: 100%;
+  margin: 10px;
+}
+
+.thumbnail2 { 
+  width: 100%;
+  margin: 10px;
+}
+.navbar-main{
+  position: fixed;
+  height: 110px;
+  background:black;
+  top:0;
+  left:0;
+  width:100%;
+}
+}
+
+
+/*pssst*/
+@media only screen and (max-width: 300px) {
+.t { 
+    background-image: url("css/Images/pst3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    }
+}
+
+    
+
+@media only screen and (max-width: 650px) {
+.s { 
+    background-image: url("css/Images/pst2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    }
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+.p { 
+    background-image: url("css/Images/pst1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    }
+}
+
+*/
+
+
