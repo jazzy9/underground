@@ -190,26 +190,30 @@ width: 100vw;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.rotate-text-1:hover{
-  display:block
-    -webkit-transition: all 0.5s ease;
+.rotate-text-1 {
+      -webkit-transition: all 0.5s ease;
      -moz-transition: all 0.5s ease;
        -o-transition: all 0.5s ease;
       -ms-transition: all 0.5s ease;
           transition: all 0.5s ease;
+}
+.rotate-text-1:hover{
+  display:block
     -webkit-transform: rotate(-30deg);
      -moz-transform: rotate(-30deg);
        -o-transform: rotate(-30deg);
       -ms-transform: rotate(-30deg);
           transform: rotate(-30deg);
 }
-.rotate-text-2:hover{
-  display:block
-    -webkit-transition: all 0.5s ease;
+.rotate-text-2 {
+      -webkit-transition: all 0.5s ease;
      -moz-transition: all 0.5s ease;
        -o-transition: all 0.5s ease;
       -ms-transition: all 0.5s ease;
           transition: all 0.5s ease;
+}
+.rotate-text-2:hover{
+  display:block
     -webkit-transform: rotate(30deg);
      -moz-transform: rotate(30deg);
        -o-transform: rotate(30deg);
