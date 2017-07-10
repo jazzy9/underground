@@ -92,7 +92,7 @@ width: 100vw;
 }
 img{
   width: 100%;
-  display: block;
+  display: inline-block;
   border-radius: 50%;
 }
 .thumbnail { 
@@ -246,43 +246,6 @@ text-indent:-99999px
 }
 
 
-/*CSS for the cocktail recipies*/
-
-.img-circle {
-  border-radius: 50%;
-}
-
-.cocktail {
-   font-size:20px;
-  text-align: left;
-  margin: 0 auto;
-  line-height: 1.4;
-  letter-spacing: 1px;
-   font-family: helvetica, sans-serif;
-  font-size: 15px;
-  line-height: 1.4;
-  letter-spacing: 1px;
-  text-align: center;
-  position: relative;
-  z-index: 8;
-}
-
-.thumbnail2 { 
-  width: calc(33.33% - 100px);
-  position: relative;
-  float: left;
-  margin: 50px;
-  margin-bottom: 60px;
-  perspective: 800px;
-  border-style: none;
-  border-radius: 0px;
-}
-
-.container2{
-  border-radius: 50%
-}
-
-
 
 /*pssst*/
 .pssst{
@@ -300,9 +263,6 @@ text-indent:-99999px
     background-attachment: fixed;
     background-size: 100%;
     }
-
-
-
 
 
 /*SWITCH TO MOBILE VERSION*/
@@ -328,7 +288,6 @@ font-size: 15px;
   width:100%;
 }
 }
-
 
 /*pssst*/
 @media only screen and (max-width: 300px) {
@@ -366,5 +325,57 @@ font-size: 15px;
 }
 
 */
+
+/*CSS for the cocktail recipies*/
+
+.img-circle img:hover {
+  display: inline-block;
+  border-radius: 50%;
+    -webkit-transform: rotateY(-180deg); /* Safari , Chrome, Opera*/
+      -ms-transform: rotateY(-180deg); /*IE9*/ 
+      -o-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+
+}
+
+.img-circle img{
+  -webkit-transform: transform .2s linear;
+  -ms-transform: transform .2s linear;
+  -o-transform: transform .2s linear;
+  transform: transform .2s linear ; 
+}
+
+.cocktail {
+   font-size:20px;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.4;
+  letter-spacing: 1px;
+   font-family: helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  text-align: center;
+  position: relative;
+  z-index: 8;
+}
+
+
+
+.thumbnail2 { 
+  width: calc(30% - 100px);
+  position: relative;
+  float: left;
+  margin: 50px;
+  margin-bottom: 60px;
+  perspective: 800px;
+  border-style: none;
+  border-radius: 0px;
+}
+
+.container2{
+  border-radius: 50%
+}
 
 
