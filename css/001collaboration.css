@@ -58,7 +58,7 @@ li {
     display: inline; 
 }
 li a {
-padding: 10px;
+padding: 5px;
 }
 footer {
     position: fixed;
@@ -184,7 +184,41 @@ width: 100vw;
   font-size: 40px;
   text-align: center;
   padding: 20px;
-
+}
+.gradient {
+  background: -webkit-linear-gradient(green, violet, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.rotate-text-1 {
+      -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+.rotate-text-1:hover{
+  display:block
+    -webkit-transform: rotate(-30deg);
+     -moz-transform: rotate(-30deg);
+       -o-transform: rotate(-30deg);
+      -ms-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+}
+.rotate-text-2 {
+      -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+.rotate-text-2:hover{
+  display:block
+    -webkit-transform: rotate(30deg);
+     -moz-transform: rotate(30deg);
+       -o-transform: rotate(30deg);
+      -ms-transform: rotate(30deg);
+          transform: rotate(30deg);
 }
 .drunk-img {
   width: 100%;
@@ -202,6 +236,12 @@ width: 100vw;
        -o-transform: rotate(-10deg);
       -ms-transform: rotate(-10deg);
           transform: rotate(-10deg);
+}
+.wasted-img {
+  filter:hue-rotate(90deg);
+}
+.wasted-img:hover {
+  filter:invert(100%);
 }
 img {
 width: 100%;
