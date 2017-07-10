@@ -21,7 +21,7 @@ body {
 }
 .navbar-main{
   position: fixed;
-  height: 80px;
+  height: 70px;
   background: black;
   top: 0;
   left: 0;
@@ -286,7 +286,6 @@ text-indent: -99999px
     position: relative;
     width: 100%;
     height: 300px;
-    background-color: none;
   }
 
 
@@ -307,43 +306,62 @@ font-size: 15px;
 }
 .navbar-main{
   position: fixed;
-  height: 110px;
+  height: 80px;
   background:black;
   top:0;
   left:0;
   width:100%;
 }
+.prost { 
+    visibility: visible;
+    top: 0px;
+    position: absolute;
+    z-index:1;
+}
 .cheers{
 visibility: hidden;
+top: 0px;
 } 
 .kanpai { 
     visibility: hidden;
+    top: 0px;
 }
 }
 
 @media only screen and (min-width: 650px){
 .cheers{
 visibility: hidden;
+top: 0px;
+    position: absolute;
 } 
 .kanpai { 
     visibility: hidden;
+    top: 0px;
+        position: absolute;
 }
 .prost { 
     visibility: visible;
+    top: 0px;
+    position: absolute;
+    z-index:1;
 }
 }
 
 @media only screen and (min-width: 1000px){
   .cheers{
     visibility: hidden;
+      position: absolute;
+    top: 0px;
 } 
 .kanpai { 
     visibility: visible;
-    top: 10px;
+    position: absolute;
     z-index:1;
 }
 .prost { 
     visibility: hidden;
+    position: absolute;
+    top: 0px;
 }
 }
 
@@ -351,13 +369,19 @@ visibility: hidden;
 @media only screen and (min-width: 1500px) {
 .cheers{
     visibility: visible;
-    top: 10px;
+    top: 0px;
+    position: absolute;
+    z-index:1;
 } 
 .kanpai { 
     visibility: hidden;
+        position: absolute;
+    top: 0px;
 }
 .prost { 
     visibility: hidden;
+        position: absolute;
+    top: 0px;
 }
 }
 
