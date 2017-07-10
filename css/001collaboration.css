@@ -21,16 +21,16 @@ body {
 }
 .navbar-main{
   position: fixed;
-  height: 80px;
-  background:black;
-  top:0;
-  left:0;
-  width:100%;
+  height: 70px;
+  background: black;
+  top: 0;
+  left: 0;
+  width: 100%;
   z-index: 99999;
 }
 a {
 text-decoration: none;
-color:white;
+color: white;
 font-family: 'Spectral',serif;
 font-size: 25px;
 }
@@ -38,18 +38,18 @@ a:visited {
   color:#EEE8AA;
 }
 a:hover {
-  color:white;
+  color: grey;
 }
 p {
   text-align: center;
 }
 .left {
-  float:left;
-  clear:left;
+  float: left;
+  clear: left;
 }
 .right {
-  float:right;
-  clear:right;
+  float: right;
+  clear: right;
   text-align: right;
   margin-right: 50px;
 }
@@ -58,7 +58,7 @@ li {
     display: inline; 
 }
 li a {
-padding:10px;
+padding: 10px;
 }
 footer {
     position: fixed;
@@ -85,7 +85,7 @@ width: 100vw;
 .thumbnail-wrap {
   width: 100vw;
   height: auto;
-  display:block;
+  display: block;
   padding: 20px;
   box-sizing: border-box;
   overflow-y: auto;
@@ -130,37 +130,37 @@ img{
 
 /* pub post */
 .pub-post-bg{
-  background:black;
-  color:white;
-  text-align:center;
+  background: black;
+  color: white;
+  text-align: center;
 }
 .navbar-post{
   position: fixed;
   height: 88px;
-  background:black;
-  top:0;
-  left:0;
-  width:100%;
+  background: black;
+  top: 0;
+  left: 0;
+  width: 100%;
   z-index: 99999;
 }
 .quote{
-  font-size:40px;
-  color:white;
+  font-size: 40px;
+  color: white;
   text-align: center;
 
 }
 .bigger{
-  font-size:40px;
+  font-size: 40px;
 }
 .subtitle{
   font-family: helvetica, sans-serif;
-  font-size:30px;
+  font-size: 30px;
   text-align: center;
   margin-bottom: 20px;
-  color:white;
+  color: white;
 }
 .post {
-  font-size:20px;
+  font-size: 20px;
   text-align: left;
   max-width: 600px;
   margin: 0 auto;
@@ -177,17 +177,17 @@ img{
 .pub-post-section {
 position: relative;
 padding: 0px;
-width:100vw;
+width: 100vw;
 }
 .pub-post-title{
   width: 100%;
-  font-size:40px;
-  text-align:center;
-  padding:20px;
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
 
 }
 .drunk-img {
-  width:100%;
+  width: 100%;
   -webkit-transition: all 0.5s ease;
      -moz-transition: all 0.5s ease;
        -o-transition: all 0.5s ease;
@@ -196,7 +196,7 @@ width:100vw;
 }
  
 .drunk-img:hover {
-    width:100%;
+    width: 100%;
   -webkit-transform: rotate(-10deg);
      -moz-transform: rotate(-10deg);
        -o-transform: rotate(-10deg);
@@ -204,8 +204,8 @@ width:100vw;
           transform: rotate(-10deg);
 }
 img {
-width:100%;
-display:block;
+width: 100%;
+display: block;
 }
 
 
@@ -213,22 +213,22 @@ display:block;
 
 #ratingdiv{overflow:hidden}
 #ratingdiv .undone, #ratingdiv .fade{
-background:url("star.gif") -30px 0 no-repeat;
-width:28px;
-display:block;
-height:30px;
-float:left;
-margin-right:4px;
-text-indent:-99999px
+background: url("star.gif") -30px 0 no-repeat;
+width: 28px;
+display: block;
+height: 30px;
+float: left;
+margin-right: 4px;
+text-indent: -99999px
 }
 #ratingdiv .done{
-background:url("star.gif") no-repeat;
-width:28px;
-display:block;
-height:30px;
-float:left;
-margin-right:4px;
-text-indent:-99999px
+background: url("star.gif") no-repeat;
+width: 28px;
+display: block;
+height: 30px;
+float: left;
+margin-right: 4px;
+text-indent: -99999px
 }
 #ratingdiv .undone:hover{background-position:0}
 
@@ -236,32 +236,57 @@ text-indent:-99999px
 .bx-wrapper img {
     margin: 0 auto;
 }
-
-
 .container{
   min-height: 10em;
   display: table-cell;
-  vertical-align:middle;
+  vertical-align: middle;
+}
+
+
+/*CSS for the cocktail recipies*/
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.cocktail {
+   font-size: 20px;
+  text-align: left;
+  margin: 0 auto;
+  line-height: 1.4;
+  letter-spacing: 1px;
+   font-family: helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  text-align: center;
+  position: relative;
+  z-index: 8;
+}
+
+.thumbnail2 { 
+  width: calc(33.33% - 100px);
+  position: relative;
+  float: left;
+  margin: 50px;
+  margin-bottom: 60px;
+  perspective: 800px;
+  border-style: none;
+  border-radius: 0px;
+}
+
+.container2{
+  border-radius: 50%
 }
 
 
 
-/*pssst*/
-.pssst{
-    position: absolute;
+/*About page*/
+.toast{
+    position: relative;
     width: 100%;
-    height: 535px;
-    z-index: 99999;
-    background-color: none;
   }
 
-  .p { 
-    background-image: url("css/images/p1.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 100%;
-    }
 
 
 /*SWITCH TO MOBILE VERSION*/
@@ -280,86 +305,82 @@ font-size: 15px;
 }
 .navbar-main{
   position: fixed;
-  height: 110px;
+  height: 80px;
   background:black;
   top:0;
   left:0;
   width:100%;
 }
+.prost { 
+    visibility: visible;
+    top: 0px;
+    position: absolute;
+    z-index:1;
+}
+.cheers{
+visibility: hidden;
+top: 0px;
+} 
+.kanpai { 
+    visibility: hidden;
+    top: 0px;
+}
 }
 
-/*pssst*/
-@media only screen and (max-width: 300px) {
-.t { 
-    background-image: url("css/Images/pst3.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 100%;
-    }
+@media only screen and (min-width: 650px){
+.cheers{
+visibility: hidden;
+top: 0px;
+    position: absolute;
+} 
+.kanpai { 
+    visibility: hidden;
+    top: 0px;
+        position: absolute;
+}
+.prost { 
+    visibility: visible;
+    top: 0px;
+    position: absolute;
+    z-index:1;
+}
+}
+
+@media only screen and (min-width: 1000px){
+  .cheers{
+    visibility: hidden;
+      position: absolute;
+    top: 0px;
+} 
+.kanpai { 
+    visibility: visible;
+    position: absolute;
+    z-index:1;
+}
+.prost { 
+    visibility: hidden;
+    position: absolute;
+    top: 0px;
+}
 }
 
     
-
-@media only screen and (max-width: 650px) {
-.s { 
-    background-image: url("css/Images/pst2.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 100%;
-    }
+@media only screen and (min-width: 1500px) {
+.cheers{
+    visibility: visible;
+    top: 0px;
+    position: absolute;
+    z-index:1;
+} 
+.kanpai { 
+    visibility: hidden;
+        position: absolute;
+    top: 0px;
+}
+.prost { 
+    visibility: hidden;
+        position: absolute;
+    top: 0px;
+}
 }
 
-
-
-@media only screen and (max-width: 1000px) {
-.p { 
-    background-image: url("css/Images/pst1.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 100%;
-    }
-}
-
-*/
-
-/*CSS for the cocktail recipies*/
-
-.img-circle {
-  border-radius: 50%;
-}
-
-.cocktail {
-   font-size:20px;
-  text-align: left;
-  max-width: 600px;
-  margin: 0 auto;
-  line-height: 1.4;
-  letter-spacing: 1px;
-   font-family: helvetica, sans-serif;
-  font-size: 15px;
-  line-height: 1.4;
-  letter-spacing: 1px;
-  text-align: center;
-  position: relative;
-  z-index: 8;
-}
-
-
-
-.thumbnail2 { 
-  width: calc(30% - 100px);
-  position: relative;
-  float: left;
-  margin: 50px;
-  margin-bottom: 60px;
-  perspective: 800px;
-  border-style: none;
-  border-radius: 0px;
-}
-
-.container2{
-  border-radius: 50%
-}
