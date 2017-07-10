@@ -291,14 +291,12 @@ text-indent: -99999px
 */
 /*About page*/
 @media only screen and (max-width: 1000px) {
-.cheers { 
-    }
-}
 .kanpai { 
-    display: none;
+    visibility: hidden;
 }
 .prost { 
-    display: none;
+    visibility: hidden;
+}
 }
 
 /*SWITCH TO MOBILE VERSION*/
@@ -323,25 +321,22 @@ font-size: 15px;
   left:0;
   width:100%;
 }
-/*pssst
-.s { 
-    background-image: url("css/Images/pst2.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 100%;
-    }
+.cheers { 
+display: none;
+}
+.prost { 
+    display: none;
+}
 }
 
-/*pssst
-@media only screen and (max-width: 300px) {
-.t { 
-    background-image: url("css/Images/pst3.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 100%;
-    }
+
+@media only screen and (min-width: 300px) {
+.kanpai { 
+    visibility: hidden;
+}
+.cheers { 
+display: none;
+}
 }
 
     
