@@ -281,23 +281,25 @@ text-indent: -99999px
 
 
 
-/*pssst*/
+/*pssst
 .pssst{
     position: absolute;
     width: 100%;
     height: 535px;
-    z-index: 99999;
     background-color: none;
   }
-
-  .p { 
-    background-image: url("css/images/p1.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 100%;
+*/
+/*About page*/
+@media only screen and (max-width: 1000px) {
+.cheers { 
     }
-
+}
+.kanpai { 
+    display: none;
+}
+.prost { 
+    display: none;
+}
 
 /*SWITCH TO MOBILE VERSION*/
 @media only screen and (max-width: 650px){
@@ -321,9 +323,17 @@ font-size: 15px;
   left:0;
   width:100%;
 }
+/*pssst
+.s { 
+    background-image: url("css/Images/pst2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    }
 }
 
-/*pssst*/
+/*pssst
 @media only screen and (max-width: 300px) {
 .t { 
     background-image: url("css/Images/pst3.png");
@@ -336,27 +346,4 @@ font-size: 15px;
 
     
 
-@media only screen and (max-width: 650px) {
-.s { 
-    background-image: url("css/Images/pst2.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 100%;
-    }
-}
-
-
-
-@media only screen and (max-width: 1000px) {
-.p { 
-    background-image: url("css/Images/pst1.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 100%;
-    }
-}
-
-*/
 
