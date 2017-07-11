@@ -162,15 +162,6 @@ img{
   color: white;
   text-align: center;
 }
-.navbar-post{
-  position: fixed;
-  height: 88px;
-  background: black;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 99999;
-}
 .quote{
   font-size: 40px;
   color: white;
