@@ -100,58 +100,30 @@ img{
   float: left;
   margin: 50px;
   margin-bottom: 60px;
-  -webkit-perspective: 800px;
- -moz-perspective: 800px;
-  -o-perspective: 800px;
-  -ms-perspective: 800px;
   perspective: 800px;
   border-style: none;
   border-radius: 0px;
 }
 #card:hover {
-    -webkit-transform: rotateX(180deg);
-    -moz-transform: rotateX(180deg);
-    -o-transform: rotateX(180deg);
-    -ms-transform: rotateX(180deg);
     transform: rotateX(180deg);
 }
 #card {
   position: relative;
-    -webkit-transition: transform 1s;
-    -moz-transition: transform 1s;
-    -o-transition: transform 1s;
-    -ms-transition: transform 1s;
-    transition: transform 1s;
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    transform-style: preserve-3d;
+  transition: transform 1s;
+  transform-style: preserve-3d;
 }
 #card figure {
   margin: 0;
   display: block;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 #card .back {
-    -webkit-transform: rotateX(180deg);
-    -moz-transform: rotateX(180deg);
-    -o-transform: rotateX(180deg);
-    -ms-transform: rotateX(180deg);
     transform: rotateX(180deg);
     position: absolute;
     top: 0; 
     left: 0;
 }
 #card.flipped {
-    -webkit-transform: rotateX(180deg);
-    -moz-transform: rotateX(180deg);
-    -o-transform: rotateX(180deg);
-    -ms-transform: rotateX(180deg);
     transform: rotateX(180deg);
 }
 
@@ -161,6 +133,15 @@ img{
   background: black;
   color: white;
   text-align: center;
+}
+.navbar-post{
+  position: fixed;
+  height: 88px;
+  background: black;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99999;
 }
 .quote{
   font-size: 40px;
@@ -433,8 +414,27 @@ visibility: hidden;
 }
 }
 
-/*CSS for the footer*/
-footer { 
-    display: block;
-    color: white;
+
+/*CSS footer*/ 
+
+#sticky {
+  width:100%;
+  padding:10px;
+  height:20px;
+  padding-bottom:16px;
+  background:rgba(0, 0, 0, .25);
+  color:white;
+  font-weight:bold;
+  font-size:18px;
+  text-align:center;
+  position:fixed;    /*Here's what sticks it*/
+  bottom:0;          /*to the bottom of the body*/
+  left:0;            /*and to the left of the body.*/
+  
+  /* footer  effect */
+  transition:.33s linear;
+}
+
+#sticky:hover {
+  background:black;
 }
