@@ -414,3 +414,8 @@ visibility: hidden;
 }
 }
 
+/*CSS for the footer*/
+footer { 
+    display: block;
+    color: white;
+}
