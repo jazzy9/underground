@@ -17,7 +17,7 @@
   background:black;
 }
 body {
-  font-family: 'Spectral', serif;
+  font-family: sans-serif;
 }
 .navbar-main{
   position: fixed;
@@ -135,10 +135,10 @@ img{
   text-align: center;
 }
 .quote{
+  font-family: 'Spectral',serif;
   font-size: 40px;
   color: white;
   text-align: center;
-
 }
 .bigger{
   font-size: 40px;
