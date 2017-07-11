@@ -17,7 +17,7 @@
   background:black;
 }
 body {
-  font-family: 'Spectral', serif;
+  font-family: sans-serif;
 }
 .navbar-main{
   position: fixed;
@@ -59,13 +59,6 @@ li {
 }
 li a {
 padding: 5px;
-}
-footer {
-    position: fixed;
-    height: 100px;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
 }
 .social-button{
   width: 22px;
@@ -163,6 +156,7 @@ img{
   text-align: center;
 }
 .quote{
+  font-family: 'Spectral',serif;
   font-size: 40px;
   color: white;
   text-align: center;
@@ -187,8 +181,8 @@ img{
   letter-spacing: 1px;
 }
 .caption {
-  font-family: helvetica, sans-serif;
-  font-size: 15px;
+font-family: 'Spectral',serif;
+  font-size: 17px;
   line-height: 1.4;
   letter-spacing: 1px;
   text-align: center;
