@@ -379,7 +379,7 @@ top: 0px;
 
 .black_overlay {
   display: none;
-  position: fixed;
+  position: absolute;
   top: 0%;
   left: 0%;
   width: 100%;
@@ -392,7 +392,7 @@ top: 0px;
 }
 .white_content {
   display: none;
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   width: 50%;

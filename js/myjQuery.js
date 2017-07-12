@@ -1,4 +1,4 @@
-// A $( document ).ready() block.
+// A $( document ).ready() block//
  $(document).ready(function(){
       $('.bxslider').bxSlider()
         });
@@ -6,9 +6,10 @@
   		var fs = $('.bigger').css('fontSize');
   		$('.bigger').css('fontSize', (parseInt(fs, 10) + 1) + 'px');
 
-
-
 });
+
+
+
 
 
 	
