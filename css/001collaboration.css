@@ -97,13 +97,14 @@ img{
   border-style: none;
   border-radius: 0px;
 }
-#card:hover {
-    transform: rotateX(180deg);
+.thumbnail:hover #card {
+  transform: rotateX(180deg);
 }
 #card {
   position: relative;
   transition: transform 1s;
   transform-style: preserve-3d;
+  backface-visibility: hidden;
 }
 #card figure {
   margin: 0;
