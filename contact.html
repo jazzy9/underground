@@ -1,10 +1,31 @@
-<head>
-    <title>Secret Bars and Pubs | Contact</title>
-</head>
-
 
 <!--Coding the contact form-->
 
+<html>
+
+<head>
+  <title>Secret Bars and Pubs  | Contact</title>
+</head>
+
+<body>
+
+  {% if myname %}
+    <p>Hello {{myname}}!</p>
+      <p>Let's keep in touch!</p>
+    	<div id="contact-form">
+    		<form method="post" action="/signup">
+          <label for="name">Your name:</label>
+          <input type="name" id="name" name="name" required="required">
+    			<label for="email">Your email address:</label>
+    			<input type="email" id="email" name="email" required="required">
+    			<input type="submit" value="Submit" id="submit-button">
+    		</form>
+
+    	</div>
+  {% else %}
+    <p>Hello anonymous person!</p>
+
+  {% endif %}
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfM5FgzHwCU4Ev_XkkkIV8_SZuKZx_hcCPOFnM-hfoOvLYx1A/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
