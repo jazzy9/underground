@@ -1,0 +1,65 @@
+<h3 class="cont-title">Email Us</h3>
+
+        <div id="errormessage"></div>
+        <div class="contact-info">
+          <form class="contactForm">
+            <div class="form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+              <div class="validation"></div>
+            </div>
+
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validation"></div>
+            </div>
+
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <div class="validation"></div>
+            </div>
+            <button type="button" class="btn btn-send" onclick="sendMessage()">Send</button>
+            <div id="sent"></div>
+            <script type="text/javascript">
+              function sendMessage() {
+                document.getElementById("sent").innerHTML = "Your message has been sent. Thank you!";
+              }
+            </script>
+          </form>
+        </div>
+
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <h3 class="cont-title">Visit Us</h3>
+        <div class="location-info">
+          <p class="white"><span aria-hidden="true" class="fa fa-map-marker"></span>
+            <a href="https://www.google.com/maps/place/London+School+of+Economics+and+Political+Science/@51.5118828,-0.1167676,15.59z/data=!4m8!1m2!2m1!1slse+map!3m4!1s0x0:0xbdb31c970f2cb8ef!8m2!3d51.5144381!4d-0.1164508" class="link-dec">London School of Economics and Political Science, Houghton Street, London, WC2A 2AE</a></p>
+          </p>
+
+
+
+                      <img src="https://images.ecosia.org/-d_9ma_NL0j5aMDrCNSG_0x9c_0=/0x390/smart/https%3A%2F%2Fpng.pngtree.com%2Felement_our%2Fmd%2F20180626%2Fmd_5b321c98efaa6.png"  alt: whatsapp; style="max-width:50px">
+
+
+            <a href="https://chat.whatsapp.com/E5nrXOeeS3D1dpaQaWvjae" class="link-dec"> Click to join our Whatsapp Group</a></p>
+          </p>
+          <p class="white"><span aria-hidden="true" class="fa fa-envelope"></span> <a href="mailto:CoffeeLovers@lse.ac.uk" class="link-dec">CoffeeLovers@lse.ac.uk</a></p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="contact-icon-container hidden-md hidden-sm hidden-xs">
+
+
+          <img src="https://images.ecosia.org/udi4lm6QWExY_Zhk-cJwCgPjeGg=/0x390/smart/http%3A%2F%2Falbiongould.com%2Fwp-content%2Fuploads%2F2014%2F08%2FDSCF1901.jpg" ; style="max-width:250px">
+          </a>
+
+          <i class="fas fa-mug-hot"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
