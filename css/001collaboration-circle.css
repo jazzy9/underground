@@ -55,7 +55,7 @@ p {
 }
 li {
     list-style: none;
-    display: inline; 
+    display: inline;
 }
 li a {
 padding: 5px;
@@ -94,7 +94,7 @@ img{
   width: 100%;
   border-radius: 50%
 }
-.thumbnail { 
+.thumbnail {
   width: calc(50% - 100px);
   position: relative;
   float: left;
@@ -120,7 +120,7 @@ img{
 #card .back {
     transform: rotateX(180deg);
     position: absolute;
-    top: 0; 
+    top: 0;
     left: 0;
 }
 #card.flipped {
@@ -185,7 +185,7 @@ width: 100vw;
       -ms-transition: all 0.5s ease;
           transition: all 0.5s ease;
 }
- 
+
 .drunk-img:hover {
     width: 100%;
   -webkit-transform: rotateY(180deg);
@@ -223,7 +223,7 @@ text-indent: -99999px
 }
 #ratingdiv .undone:hover{background-position:0}
 
-/*CSS for the carousel*/ 
+/*CSS for the carousel*/
 .bx-wrapper img {
     margin: 0 auto;
 }
@@ -255,7 +255,7 @@ text-indent: -99999px
   z-index: 8;
 }
 
-.thumbnail2 { 
+.thumbnail2 {
   width: calc(33.33% - 100px);
   position: relative;
   float: left;
@@ -285,12 +285,12 @@ text-indent: -99999px
 a {
 font-size: 15px;
 }
-.thumbnail { 
+.thumbnail {
   width: 100%;
   margin: 10px;
 }
 
-.thumbnail2 { 
+.thumbnail2 {
   width: 100%;
   margin: 10px;
 }
@@ -302,7 +302,7 @@ font-size: 15px;
   left:0;
   width:100%;
 }
-.prost { 
+.prost {
     visibility: visible;
     top: 0px;
     position: absolute;
@@ -311,8 +311,8 @@ font-size: 15px;
 .cheers{
 visibility: hidden;
 top: 0px;
-} 
-.kanpai { 
+}
+.kanpai {
     visibility: hidden;
     top: 0px;
 }
@@ -323,13 +323,13 @@ top: 0px;
 visibility: hidden;
 top: 0px;
     position: absolute;
-} 
-.kanpai { 
+}
+.kanpai {
     visibility: hidden;
     top: 0px;
         position: absolute;
 }
-.prost { 
+.prost {
     visibility: visible;
     top: 0px;
     position: absolute;
@@ -342,33 +342,33 @@ top: 0px;
     visibility: hidden;
       position: absolute;
     top: 0px;
-} 
-.kanpai { 
+}
+.kanpai {
     visibility: visible;
     position: absolute;
     z-index:1;
 }
-.prost { 
+.prost {
     visibility: hidden;
     position: absolute;
     top: 0px;
 }
 }
 
-    
+
 @media only screen and (min-width: 1500px) {
 .cheers{
     visibility: visible;
     top: 0px;
     position: absolute;
     z-index:1;
-} 
-.kanpai { 
+}
+.kanpai {
     visibility: hidden;
         position: absolute;
     top: 0px;
 }
-.prost { 
+.prost {
     visibility: hidden;
         position: absolute;
     top: 0px;
@@ -411,12 +411,12 @@ top: 0px;
 a {
 font-size: 15px;
 }
-.thumbnail { 
+.thumbnail {
   width: 100%;
   margin: 10px;
 }
 
-.thumbnail2 { 
+.thumbnail2 {
   width: 100%;
   margin: 10px;
 }
@@ -428,7 +428,7 @@ font-size: 15px;
   left:0;
   width:100%;
 }
-.prost { 
+.prost {
     visibility: visible;
     top: 0px;
     position: absolute;
@@ -436,8 +436,8 @@ font-size: 15px;
 }
 .cheers{
 visibility: hidden;
-} 
-.kanpai { 
+}
+.kanpai {
     visibility: hidden;
 }
 .white_content {
@@ -462,12 +462,12 @@ visibility: hidden;
 .cheers{
 visibility: hidden;
     position: absolute;
-} 
-.kanpai { 
+}
+.kanpai {
     visibility: hidden;
         position: absolute;
 }
-.prost { 
+.prost {
     visibility: visible;
     position: absolute;
     z-index:1;
@@ -495,13 +495,13 @@ visibility: hidden;
   .cheers{
     visibility: hidden;
       position: absolute;
-} 
-.kanpai { 
+}
+.kanpai {
     visibility: visible;
     position: absolute;
     z-index:1;
 }
-.prost { 
+.prost {
     visibility: hidden;
     position: absolute;
 }
@@ -524,18 +524,18 @@ visibility: hidden;
 }
 }
 
-    
+
 @media only screen and (min-width: 1500px) {
 .cheers{
     visibility: visible;
     position: absolute;
     z-index:1;
-} 
-.kanpai { 
+}
+.kanpai {
     visibility: hidden;
     position: absolute;
 }
-.prost { 
+.prost {
     visibility: hidden;
     position: absolute;
 }
@@ -553,6 +553,22 @@ visibility: hidden;
   overflow: auto;
   color:black ;
   font-size: 20px;
+  text-align:center;
+}
+.contact-form {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 70%;
+  padding: 16px;
+  border: 16px solid orange;
+  background-color: black;
+  z-index: 1002;
+  overflow: auto;
+  color:pink ;
+  font-size: 200px;
   text-align:center;
 }
 }
