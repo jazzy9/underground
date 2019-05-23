@@ -6,4 +6,4 @@ def send_simple_message():
                 "to": ["bar@example.com"],
                 "subject": "Hello",
                 "text": "Testing some Mailgun awesomness!"})
-send_simple_message
+send_simple_message()
